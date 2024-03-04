@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist/js",
+      "rootDir": "src",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*", "tsconfig.json", "tsconfig.json", "src/backend/config", "src/backend/models", "src/backend/routes", "src/backend/types", "src/backend/app.ts", "src/backend/app.js"],
+    "exclude": ["src/types/*.ts", "node_modules", ".vscode"]
+  }
