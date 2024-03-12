@@ -1,0 +1,117 @@
+.modal {
+    margin: auto;
+    width: 35%;
+    min-width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    transition: 1.1s ease-out;
+    box-shadow: -0.6rem 0.6rem 0.6rem rgba(0, 0, 0, 0.2);
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    z-index:9999;
+    top : 160px;
+    left:0;
+    right:0;
+      /* bottom:0; */
+  }
+  .modal.off {
+    opacity: 0;
+    visibility: hidden;
+    filter: blur(8px);
+    transform: scale(0.33);
+    box-shadow: 1rem 0 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .modalHeader {
+    margin: auto;
+    text-align: center;
+  }
+  .modal h3 {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+    margin: auto;
+    display: inline-block;
+    color: #221c42;
+  }
+  .exitButton {
+    display: inline-block;
+    float: right;
+    margin-top:10px;
+    margin-right: 10px;
+  }
+  .modal .content {
+    padding: 1rem;
+    margin: auto;
+  }
+  .modalBody {
+    margin: auto;
+    padding: 20px;
+  }
+  .modalFooter {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal label {
+    padding: 10px;
+    padding-bottom: 100px;
+    margin: auto;
+  }
+  #notesInput {
+    width: 50%;
+    height: 90%;
+    margin: auto;
+  }
+  #selectRotation {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .modal select {
+    width: 60%;
+    padding: 7px;
+  }
+  .submitButtons {
+    margin: auto;
+    width: 100%;
+  }
+  .modalButton {
+    margin: auto;
+    text-align: center;
+    background-color: #69906b;
+    color: white;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .modalButton:hover {
+    background-color: #dce6dd;
+    color: black;
+  }
+  .assigneeButton {
+    background-color: lightgray;
+    margin: auto;
+  }
+  .visible {
+    visibility: visible;
+    color: red;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  
+  .active {
+    background-color: #69906b;
+  }
+  .modal .actions {
+    border-top: 1px solid #ccc;
+    background: #eee;
+    padding: 0.5rem 1rem;
+  }
+  #centered-toggle-button {
+    position: absolute;
+  }

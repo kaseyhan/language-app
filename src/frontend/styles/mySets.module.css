@@ -1,0 +1,85 @@
+
+.pageContents {
+    margin-top: 70px;
+    background-color: var(--background);
+    --background: #f5e6ff;
+    --lightest: #ddbff0;
+    --light: #d3abed;
+    --medium: #bb83df;
+    --dark: #8d45ba;
+    --darkest: #6a2297;
+}
+
+.header {
+    text-align: center;
+}
+
+.setsContainer {
+
+}
+
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.setCard {
+    width: 20%;
+    background-color: var(--light);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardButtons1 {
+    padding: 4px;
+}
+.cardButtons2 {
+
+}
+
+.studyButton {
+    background-color: var(--dark);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.editButton,.deleteButton {
+    background-color: var(--dark);
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.studyButton:hover, .editButton:hover, .deleteButton:hover {
+    background-color: var(--medium);
+}
+
+.buttonContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.createSetButton {
+    background-color: var(--dark);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.createSetButton:hover {
+    background-color: var(--medium);
+}

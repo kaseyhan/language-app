@@ -1,0 +1,5 @@
+background: #ffeee3
+dark brown: #5f371d
+medium brown: #996c4e
+light brown: #c99e82
+
